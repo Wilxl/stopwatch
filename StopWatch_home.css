@@ -110,3 +110,50 @@ H1{
     transition-delay: 0.1s;
     cursor: pointer;
 }
+@media (max-width: 480px) {
+    /* iPhone 15, 12, 13 mini (largeur ≤ 393px) */
+    H1 {
+        top: 10%;
+        left: 20%;
+        font-size: medium;
+        position: relative; /* par exemple */
+    }
+
+    #Box-cnt {
+        top: 20%;
+        left: 5%;
+        width: 90%;
+        height: auto;
+        position: relative;
+        border-width: 3px;
+    }
+
+    #gif-cnt {
+        top: 25%;
+        left: 10%;
+        width: 80%;
+        height: auto;
+        position: relative;
+    }
+
+    #timer {
+        font-size: 40px;
+        width: 80%;
+        height: auto;
+        top: 15%;
+        left: 10%;
+        transform: scale(1);
+        position: relative;
+    }
+
+    .start, .pause, .reset {
+        top: auto;
+        left: auto;
+        position: relative;
+        display: inline-block;
+        margin: 0 10px;
+        height: 50px;
+        width: 50px;
+        transform: scale(1);
+    }
+}
