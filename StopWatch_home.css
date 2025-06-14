@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body{
+    background-color: midnightblue;
+}
+
+H1{
+    position: absolute;
+    background-color: white;
+    font-family:"Arial Nova", sans-serif;
+    font-size: larger;
+    top: 15%;
+    left: 36%;
+    z-index: 1;
+
+    
+    
+}
+
+#Box-cnt{
+    position: absolute;
+    background-image: url("sofia-ritter-chatting-4k.jpg");
+    border: 7px solid black;
+    top: 15%;
+    left: 36%;
+    height: 60%;
+    width: 30%;
+}
+
+#gif-cnt{
+    position: absolute;
+    background-image: url("output-onlinegiftools (3).gif");
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 60%;
+    top: 18%;
+    left: 38%
+}
+
+#timer{
+    position: absolute;
+    font-family: "Arial Nova", sans-serif;
+    font-size: 90px;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    background-image: url("TimerBox.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scale(0.65);
+    height: 25%;
+    width: 30%;
+    top: 10%;
+    left: 36%;
+}
+
+.start{
+    position: absolute;
+    background-image: url("Play.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scale(0.7);
+    height: 11%;
+    width: 5%;
+    top: 62%;
+    left: 40%;
+}
+
+.start:hover{
+    transform: scale(0.6);
+    transition-delay: 0.1s;
+    cursor: pointer;
+}
+
+.pause{
+    position: absolute;
+    background-image: url("pause.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    transform: scale(0.7);
+    height: 11%;
+    width: 5%;
+    top: 62%;
+    left: 48%;
+}
+.pause:hover{
+    transform: scale(0.6);
+    transition-delay: 0.1s;
+    cursor: pointer;
+}
+
+.reset{
+    position: absolute;
+    background-image: url("stop.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    transform: scale(0.7);
+    height: 11%;
+    width: 5%;
+    top: 62%;
+    left: 56%;
+}
+
+.reset:hover{
+    transform: scale(0.6);
+    transition-delay: 0.1s;
+    cursor: pointer;
+}
