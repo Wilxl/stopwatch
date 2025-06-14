@@ -76,7 +76,7 @@ H1{
 
 .pause{
     position: absolute;
-    background-image: url("pause.png");
+    background-image: url("Pause.png");
     background-repeat: no-repeat;
     background-position: center;
     background-color: transparent;
@@ -94,7 +94,7 @@ H1{
 
 .reset{
     position: absolute;
-    background-image: url("stop.png");
+    background-image: url("Stop.png");
     background-repeat: no-repeat;
     background-position: center;
     background-color: transparent;
